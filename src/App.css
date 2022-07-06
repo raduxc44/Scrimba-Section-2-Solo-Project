@@ -1,8 +1,10 @@
 * {
     box-sizing: border-box;
-  }  
+  }
+.App {
+    font-family: 'Inter';
+}
 nav {
-    width: 100%;
     background-color: #F55A5A;
     display: flex;
     justify-content: center;
@@ -14,4 +16,62 @@ nav {
 }
 .nav-title {
     color: white;
+}
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 0 5% 0
+}
+.card {
+    border: 1px solid red;
+    display: flex;
+    gap: 20px;
+    height: 168px;
+    width: 90%;
+    align-items: center;
+}
+.card img {
+    width: 125px;
+    height: 100%;
+    border-radius: 5px;
+}
+.card-upper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.card-upper p, .card-upper h2, .card-lower h6, .card-lower p {
+    margin: 0;
+}
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+}
+.title {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    gap: 5px;
+}
+.fa-location-dot {
+    color: red;
+}
+.title p{
+    letter-spacing: 1.5px;
+}
+.horizontal a{
+    font-size: 12px;
+}
+.horizontal {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.card-lower p {
+    font-size: 11px;
+    margin-top: 5px;
 }
