@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+  }  
+nav {
+    width: 100%;
+    background-color: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.fa-earth-americas {
+    color: white ;
+}
+.nav-title {
+    color: white;
+}

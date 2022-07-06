@@ -1,9 +1,10 @@
 import './App.css';
+import Nav from './nav';
 
 function App() {
   return (
     <div className="App">
-      <h1>Blank</h1>
+      <Nav />
     </div>
   );
 }
