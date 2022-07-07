@@ -23,7 +23,7 @@ nav {
     justify-content: center;
     align-items: center;
     padding: 10% 0 5% 0;
-    gap: 10px;
+    gap: 20px;
 }
 .card {
     display: flex;
@@ -33,9 +33,11 @@ nav {
     align-items: center;
 }
 .card img {
-    width: 125px;
+    width: 135px;
     height: 100%;
     border-radius: 5px;
+    left: calc(50% - 126px/2 - 173px);
+    top: calc(50% - 168px/2 + 36px);
 }
 .card-upper {
     display: flex;

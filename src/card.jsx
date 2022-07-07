@@ -9,7 +9,7 @@ function Card(props) {
                             <i className="fa-solid fa-location-dot"></i>
                             <p>{props.title}</p>
                         </div>
-                        <a href="https://www.google.com/maps/dir//35.360557,138.72767/@35.3628825,138.6573517,12zd" target={'_blank'} rel= 'noreferrer'>View on Google Maps</a>
+                        <a href={props.googleMapsUrl} target={'_blank'} rel= 'noreferrer'>View on Google Maps</a>
                     </div>
                     <h2>{props.title}</h2>
                 </div>
